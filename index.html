@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#050811">
+<title>HEXOR STORE | Quality Enhancement</title>
+<style>
+:root{color-scheme:dark;--blue:#168cff;--bg:#050811;--card:#0c1424}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:#f5f8ff;font-family:Arial,Helvetica,sans-serif}
+nav{display:flex;justify-content:space-between;align-items:center;padding:22px 7%;border-bottom:1px solid #152641}
+.logo{font-size:25px;font-weight:900;letter-spacing:4px;color:#fff;text-shadow:0 0 20px #168cff}
+nav a,.btn{color:#fff;text-decoration:none}
+nav a{font-size:14px}
+.hero{min-height:510px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:75px 20px;background:radial-gradient(ellipse at 50% 30%,#102c50 0%,#050811 65%)}
+.tag{color:#62b6ff;border:1px solid #174d80;border-radius:30px;padding:9px 14px;font-size:11px;letter-spacing:2px}
+h1{font-size:clamp(38px,8vw,76px);line-height:1.05;margin:25px 0 16px;letter-spacing:-2px}
+h1 span{color:#168cff;text-shadow:0 0 35px #087fff66}
+.hero p{max-width:560px;color:#9eacc3;line-height:1.8;font-size:16px}
+.btn{display:inline-block;background:linear-gradient(120deg,#0879f9,#24b4ff);padding:15px 25px;border-radius:8px;font-weight:bold;box-shadow:0 0 25px #087fff33;margin-top:18px}
+section{padding:65px 7%;max-width:1250px;margin:auto}
+.eyebrow{color:#4daaff;text-transform:uppercase;letter-spacing:3px;font-size:12px}
+h2{font-size:32px;margin:12px 0}
+.sub{color:#9eacc3;line-height:1.7}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:32px}
+.card{background:linear-gradient(145deg,#101d32,#080d18);border:1px solid #1a3150;padding:27px 22px;border-radius:15px}
+.card.featured{border-color:#168cff;box-shadow:0 0 28px #168cff18}
+.card h3{font-size:19px}
+.price{font-size:32px;font-weight:bold;margin:20px 0}
+.price small{font-size:13px;color:#9eacc3}
+.card p{color:#aebbd0;line-height:1.8;font-size:14px}
+.card .btn{width:100%;text-align:center}
+.note{color:#7e8ba3;font-size:12px;margin-top:22px;line-height:1.7}
+footer{border-top:1px solid #152641;padding:28px 7%;text-align:center;color:#7e8ba3;font-size:12px;line-height:2}
+footer a{color:#8abfff;margin:0 8px}
+@media(max-width:700px){nav{padding:18px 5%}.logo{font-size:21px}nav a{font-size:12px}.hero{min-height:450px;padding:60px 20px}h1{letter-spacing:-1px}.cards{grid-template-columns:1fr}section{padding:48px 6%}.card{padding:25px}.price{font-size:30px}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">HEXOR<span style="color:#168cff">.</span></div>
+  <a href="#packages">PACKAGES ↗</a>
+</nav>
+<header class="hero">
+  <div class="tag">PRECISION · QUALITY · DETAIL</div>
+  <h1>YOUR VIDEOS.<br><span>UPGRADED.</span></h1>
+  <p>Bring your videos to life with our quality enhancement service. A sharper, cleaner look for the moments that matter.</p>
+  <a class="btn" href="#packages">Explore Packages &nbsp; →</a>
+</header>
+<section id="packages">
+  <div class="eyebrow">Simple pricing</div>
+  <h2>Choose your package.</h2>
+  <p class="sub">Purchase credits for your video enhancement orders.</p>
+  <div class="cards">
+    <article class="card">
+      <h3>Starter</h3>
+      <div class="price">LKR 1,000</div>
+      <p>10 video credits<br>Quality enhancement<br>Order status tracking</p>
+      <a class="btn" href="#contact">Get Started</a>
+    </article>
+    <article class="card featured">
+      <div class="eyebrow">Popular choice</div>
+      <h3>Creator</h3>
+      <div class="price">LKR 2,000</div>
+      <p>25 video credits<br>Quality enhancement<br>Order status tracking</p>
+      <a class="btn" href="#contact">Get Started</a>
+    </article>
+    <article class="card">
+      <h3>Pro Pack</h3>
+      <div class="price">LKR 3,500</div>
+      <p>50 video credits<br>Quality enhancement<br>Order status tracking</p>
+      <a class="btn" href="#contact">Get Started</a>
+    </article>
+  </div>
+  <p class="note">Credits are subject to the published Terms &amp; Conditions. This preview does not accept payments or process video uploads.</p>
+</section>
+<section id="contact">
+  <div class="eyebrow">Coming next</div>
+  <h2>Your enhancement journey starts here.</h2>
+  <p class="sub">Customer accounts, secure checkout and video uploads will be added after backend setup.</p>
+</section>
+<footer>
+  © 2026 HEXOR STORE. All rights reserved.<br>
+  <a href="#contact">Terms &amp; Conditions</a>
+  <a href="#contact">Privacy Policy</a>
+  <p>Demo website — no live payments or uploads are enabled.</p>
+</footer>
+</body>
+</html>
